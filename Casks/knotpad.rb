@@ -15,6 +15,8 @@ cask "knotpad" do
   desc "Note-first project management with automatic task generation"
   homepage "https://knotpad.app"
 
+    auto_updates true
+  
   app "Knotpad.app"
 
     postflight do
